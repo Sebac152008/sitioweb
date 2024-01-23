@@ -1,0 +1,50 @@
+nav ul {
+    padding: 1px;
+    margin: 2px;
+}
+
+nav li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -2px;
+    color: black;
+    padding: -6px;
+    font-size: 15px;
+    position: relative;
+    margin-left: 10px;
+    top: 6px;
+    right: 5px;
+}
+nav a {
+    text-decoration: solid; 
+    color: black;
+    font-size: 100%;
+}
+nav {
+    padding: 10px;
+    margin: -10px;
+}
+body {
+    color: whitesmoke;
+}
+.primera {
+    width: 1350px;
+    height: 100px;
+}
+.n {
+    top: -24px;
+    position: relative;
+    margin-left: 160px;
+}
+.Formulario {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+.Formulario input, 
+.Formulario textarea {
+    width: 500px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}

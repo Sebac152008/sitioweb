@@ -1,0 +1,89 @@
+nav ul {
+    list-style: none;
+    padding: 1px;
+    margin: 2px;
+}
+
+nav li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -2px;
+    color: black;
+    padding: -6px;
+    font-size: 15px;
+    position: relative;
+    margin-left: 68px;
+    top: 6px;
+    right: 50px;
+    left: -11px;
+}
+nav a {
+    text-decoration: solid; 
+    color: black;
+    font-size: 100%;
+    margin-right: -60px;
+}
+nav {
+    padding: 10px;
+    margin: -10px;
+}
+body {
+    color: whitesmoke;
+}
+.primera {
+    top: 5px;
+    position: relative;
+}
+.n {
+    margin-left: 140px;
+    top: -18px;
+    position: relative;
+}
+.segunda {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.tercera {
+    display: flex;
+    justify-content: center;
+}
+.imagen {
+    margin: 10px 19px;
+}
+.numero1 {
+    top: -20px;
+    position: relative;
+    left: 50px;
+}
+.numero2 {
+    left: 128px;
+    position: relative;
+}
+.numero3 {
+    top: -20px;
+    position: relative;
+    left: 170px
+}
+.numero4 {
+    position: relative;
+    top: -18px;
+    left: 60px;
+}
+.numero5 {
+    position: relative;
+    top: 8px;
+    left: 140px;
+}
+.numero6 {
+    position: relative;
+    top: -20px;
+    left: 210px;
+}
+/**escritorio**/
+@media (min-width: 768px) and (max-width: 990px) {
+  .escritorio {
+    display: grid;
+    width: 960px;
+  }
+}
